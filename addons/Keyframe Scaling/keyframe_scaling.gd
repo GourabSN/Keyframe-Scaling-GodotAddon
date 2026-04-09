@@ -34,7 +34,6 @@ class ScaleInspectorPlugin extends EditorInspectorPlugin:
 		add_custom_control(button)
 
 
-# ---------------- MAIN LOGIC ----------------
 
 func _open_dialog(player: AnimationPlayer) -> void:
 	if player.assigned_animation.is_empty():
